@@ -1,10 +1,13 @@
 *{
-    font-family: 'Roboto Mono', monospace;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 header{
+    background-image: url(../img/kobrabg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     padding: 20px 8%;
-    background-color: #222;
+    /*background-color: #222;*/
 }
 body{
     margin: 0;
@@ -16,8 +19,12 @@ a{
     text-decoration: none !important;
 }
 .logo{
-
-    color: #FFD300;
+    background-image: url(../img/kobralogo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20%;
+    border-radius: 5px;
 }
 .search-input{
     width: 45%;
@@ -44,6 +51,8 @@ a{
     height: 25px;
 }
 .navbar{
+    
+    padding: 1% 0;
     min-height: 70px;
     display: flex;
     justify-content: space-between;

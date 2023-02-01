@@ -6,7 +6,7 @@
 
 
         <nav class="navbar">
-            <a href='index.php'><h1 class="logo" alt="logo global classroom" style="cursor: pointer;" href='index.php'>CobraW</h1></a>
+        <a href='index.php'><img src="img/kobralogo.jpg" width="75px"></a>
             <form class="search-input" method="POST" action="search.php">
                 <input name="city_name" type="text" placeholder="search">
                 <label for="sb"><img src="img/search.svg" alt="search icon" class="search-icon-my" style="cursor: pointer;"></label>
